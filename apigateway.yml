@@ -23,7 +23,7 @@ spring:
             predicates:
               - Path=/api/v2/**
 server:
-  port: ${9000}
+  port: 9000
 eureka:
   client:
     serviceURL:
